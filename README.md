@@ -1,4 +1,4 @@
-# Watersort-Puzzle
+# Development
 
 A java program/game for playing a water sort game.
 
