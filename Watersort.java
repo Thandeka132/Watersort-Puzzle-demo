@@ -25,8 +25,7 @@ public class Watersort extends StackAsMyArrayList {
     public static List<StackAsMyArrayList> FillColorRandomly(List<StackAsMyArrayList> bottles){
          Character[] inks = {red, blue, green};//
 
-         //initialise the 5 bottles
-        //*There's probably a prettier way to do this, but this is the one i have right now
+        //initialise the 5 bottles
         StackAsMyArrayList
                 bottle1  = new StackAsMyArrayList(),
                 bottle2= new StackAsMyArrayList(),
@@ -49,7 +48,7 @@ public class Watersort extends StackAsMyArrayList {
             for (int j = 0; j <4; j++){
                 int rand_int = rand.nextInt(3);//this give a random number which will be used to get a random color
 
-                //you can comment this out to see how the collors are added to different bottles *delete this when submitting
+                //you can comment this out to see how the colors are added to different bottles
                 //System.out.println("Pouring " +inks[rand_int]+" into bottle "+i );
 
                 //add a random ink to a bottle
